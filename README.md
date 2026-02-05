@@ -22,7 +22,7 @@ pinned: true
 [![E2B](https://img.shields.io/badge/Powered_by-E2B-FF6B6B?style=for-the-badge)](https://e2b.dev/)
 [![smolagents](https://img.shields.io/badge/Built_with-smolagents-FFD700?style=for-the-badge)](https://github.com/huggingface/smolagents)
 
-[Features](#-features) • [Demo](#-demo) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Contributing](#-contributing)
+[Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Contributing](#-contributing)
 
 </div>
 
@@ -86,32 +86,6 @@ pinned: true
 - **Framer Motion** - Production-ready animation library
 - **Vite** - Lightning-fast build tool
 - **Zustand** - Lightweight state management
-
----
-
-## 🎬 Demo
-
-### Live Interface
-
-![SideAI Welcome Screen](assets/welcome-screen.png)
-*Modern welcome screen with task input and model selection*
-
-![Task Execution](assets/task-execution.png)
-*Real-time task execution with desktop streaming*
-
-### Try It Live
-
-👉 **[Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/Rwill03/SideAI)**
-
-### Example Tasks
-
-```
-✅ "Open Firefox and navigate to google.com"
-✅ "Create a text file called notes.txt with 'Hello World'"
-✅ "Take a screenshot of the desktop"
-✅ "Open Calculator and compute 45 * 67"
-✅ "Search for 'AI agents' on DuckDuckGo"
-```
 
 ---
 
