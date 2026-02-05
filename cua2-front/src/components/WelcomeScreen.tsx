@@ -152,11 +152,11 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStartTask, isCon
         >
           <Box
             component="img"
-            src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-            alt="AI Agent"
+            src="/logo.png"
+            alt="SideAI Logo"
             sx={{
-              width: { xs: 72, md: 96 },
-              height: { xs: 72, md: 96 },
+              width: { xs: 120, md: 160 },
+              height: { xs: 120, md: 160 },
               mb: 4,
               filter: isDarkMode ? 'brightness(0.9)' : 'none',
             }}

@@ -7,5 +7,5 @@ export const config = {
   apiBaseUrl: 'http://localhost:8000/api/v1',
 
   // Default model (will be overridden by first available model from backend)
-  defaultModelId: 'Qwen/Qwen3-VL-8B-Instruct',
+  defaultModelId: 'gpt-4o',
 } as const;

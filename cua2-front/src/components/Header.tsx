@@ -169,8 +169,18 @@ export const Header: React.FC<HeaderProps> = ({ isAgentProcessing, onBackToHome 
       <Toolbar disableGutters sx={{ px: 2, py: 2.5, flexDirection: 'column', alignItems: 'stretch', gap: 0 }}>
         {/* First row: Back button + Task info + Connection Status */}
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', gap: 3 }}>
-          {/* Left side: Back button + Task info */}
+          {/* Left side: Logo + Back button + Task info */}
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, flex: 1, minWidth: 0 }}>
+            <Box
+              component="img"
+              src="/logo.png"
+              alt="SideAI Logo"
+              sx={{
+                height: 48,
+                width: 'auto',
+                objectFit: 'contain',
+              }}
+            />
             <IconButton
               onClick={onBackToHome}
               size="small"
