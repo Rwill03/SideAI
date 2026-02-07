@@ -102,7 +102,7 @@ export const useAgentWebSocket = ({ url }: UseAgentWebSocketOptions) => {
 
       }
     },
-    [setTrace, updateTraceWithStep, completeTrace, setIsAgentProcessing, setIsConnectingToE2B, setVncUrl, setError, resetAgent, setTraceId, traceId]
+    [setTrace, updateTraceWithStep, completeTrace, setIsAgentProcessing, setIsConnectingToE2B, setVncUrl, setError, resetAgent, setTraceId]
   );
 
   // Handle WebSocket errors

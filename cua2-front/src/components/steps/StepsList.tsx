@@ -276,7 +276,7 @@ export const StepsList: React.FC<StepsListProps> = ({ trace }) => {
       container.removeEventListener('scroll', throttledScroll);
       clearTimeout(scrollTimeout);
     };
-  }, [trace?.steps, selectedStepIndex, setSelectedStepIndex, finalStep]);
+  }, [trace?.steps, trace?.isRunning, selectedStepIndex, setSelectedStepIndex, finalStep]);
 
   return (
     <Paper

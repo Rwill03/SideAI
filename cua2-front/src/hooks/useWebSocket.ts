@@ -141,7 +141,7 @@ export const useWebSocket = ({ url, onMessage, onError }: UseWebSocketProps) => 
     return () => {
       disconnect();
     };
-  }, [url]); // Only depend on url, not the functions
+  }, [url, connect, disconnect]); // Only depend on url, not the functions
 
   return {
     isConnected,

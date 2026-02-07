@@ -120,7 +120,7 @@ export const Header: React.FC<HeaderProps> = ({ isAgentProcessing, onBackToHome 
       }
       prevOutputTokens.current = metadata.outputTokensUsed;
     }
-  }, [metadata?.inputTokensUsed, metadata?.outputTokensUsed]);
+  }, [metadata]);
 
   // Determine task status - Use finalStep as source of truth
   const getTaskStatus = () => {
