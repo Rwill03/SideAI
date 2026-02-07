@@ -1,11 +1,3 @@
----
-title: SideAI - AI Desktop Automation
-emoji: 🤖
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-pinned: true
----
 
 <div align="center">
 
