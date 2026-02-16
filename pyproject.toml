@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "cua2-workspace"
+name = "sideai"
 version = "0.0.0-dev.0"
-description = "CUA2 Workspace - A comprehensive platform for AI automation with desktop environments"
+description = "SideAI - A comprehensive platform for AI automation with desktop environments"
 # readme = "README.md"
 authors = [{ name = "Will R.", email = "williamrogov@gmail.com" }]
 keywords = ["docker", "automation", "gui", "sandbox", "desktop", "playwright", "ai", "workspace"]

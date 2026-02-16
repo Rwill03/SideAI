@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Starting CUA2 Application..."
+echo "Starting SideAI Application..."
 
 # Start nginx in the background using the config from the app directory
 nginx -c $HOME/app/nginx.conf -g 'daemon off;' &
