@@ -179,7 +179,7 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStartTask, isCon
               color: 'text.primary',
             }}
           >
-            Computer Use Agent
+            SideAI
           </Typography>
         </motion.div>
 
