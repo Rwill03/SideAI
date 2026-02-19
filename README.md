@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 🤖 SideAI
+#SideAI
 
 ### AI-Powered Desktop Automation with Real-Time Visualization
 
